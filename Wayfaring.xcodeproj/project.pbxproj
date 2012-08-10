@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32942ECA15D4EDAF005562A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32942EC915D4EDAF005562A1 /* UIKit.framework */; };
+		32942ECC15D4EDAF005562A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32942ECB15D4EDAF005562A1 /* Foundation.framework */; };
+		32942ECE15D4EDAF005562A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32942ECD15D4EDAF005562A1 /* CoreGraphics.framework */; };
+		32942ED415D4EDAF005562A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32942ED215D4EDAF005562A1 /* InfoPlist.strings */; };
+		32942ED615D4EDAF005562A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32942ED515D4EDAF005562A1 /* main.m */; };
+		32942EDA15D4EDAF005562A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32942ED915D4EDAF005562A1 /* AppDelegate.m */; };
+		32942EDD15D4EDAF005562A1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32942EDB15D4EDAF005562A1 /* MainStoryboard_iPhone.storyboard */; };
+		32942EE015D4EDAF005562A1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32942EDE15D4EDAF005562A1 /* MainStoryboard_iPad.storyboard */; };
+		32942EE315D4EDAF005562A1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32942EE215D4EDAF005562A1 /* FirstViewController.m */; };
+		32942EE515D4EDAF005562A1 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 32942EE415D4EDAF005562A1 /* first.png */; };
+		32942EE715D4EDAF005562A1 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32942EE615D4EDAF005562A1 /* first@2x.png */; };
+		32942EEA15D4EDAF005562A1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32942EE915D4EDAF005562A1 /* SecondViewController.m */; };
+		32942EEC15D4EDAF005562A1 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 32942EEB15D4EDAF005562A1 /* second.png */; };
+		32942EEE15D4EDAF005562A1 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32942EED15D4EDAF005562A1 /* second@2x.png */; };
+		32942EF615D4EDAF005562A1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32942EF515D4EDAF005562A1 /* SenTestingKit.framework */; };
+		32942EF715D4EDAF005562A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32942EC915D4EDAF005562A1 /* UIKit.framework */; };
+		32942EF815D4EDAF005562A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32942ECB15D4EDAF005562A1 /* Foundation.framework */; };
+		32942F0015D4EDAF005562A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32942EFE15D4EDAF005562A1 /* InfoPlist.strings */; };
+		32942F0315D4EDAF005562A1 /* WayfaringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32942F0215D4EDAF005562A1 /* WayfaringTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32942EF915D4EDAF005562A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32942EBC15D4EDAF005562A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32942EC415D4EDAF005562A1;
+			remoteInfo = Wayfaring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32942EC515D4EDAF005562A1 /* Wayfaring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wayfaring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32942EC915D4EDAF005562A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32942ECB15D4EDAF005562A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32942ECD15D4EDAF005562A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32942ED115D4EDAF005562A1 /* Wayfaring-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wayfaring-Info.plist"; sourceTree = "<group>"; };
+		32942ED315D4EDAF005562A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32942ED515D4EDAF005562A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32942ED715D4EDAF005562A1 /* Wayfaring-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wayfaring-Prefix.pch"; sourceTree = "<group>"; };
+		32942ED815D4EDAF005562A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32942ED915D4EDAF005562A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32942EDC15D4EDAF005562A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		32942EDF15D4EDAF005562A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		32942EE115D4EDAF005562A1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		32942EE215D4EDAF005562A1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		32942EE415D4EDAF005562A1 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		32942EE615D4EDAF005562A1 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		32942EE815D4EDAF005562A1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		32942EE915D4EDAF005562A1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		32942EEB15D4EDAF005562A1 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		32942EED15D4EDAF005562A1 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		32942EF415D4EDAF005562A1 /* WayfaringTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WayfaringTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32942EF515D4EDAF005562A1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		32942EFD15D4EDAF005562A1 /* WayfaringTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WayfaringTests-Info.plist"; sourceTree = "<group>"; };
+		32942EFF15D4EDAF005562A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32942F0115D4EDAF005562A1 /* WayfaringTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WayfaringTests.h; sourceTree = "<group>"; };
+		32942F0215D4EDAF005562A1 /* WayfaringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WayfaringTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32942EC215D4EDAF005562A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32942ECA15D4EDAF005562A1 /* UIKit.framework in Frameworks */,
+				32942ECC15D4EDAF005562A1 /* Foundation.framework in Frameworks */,
+				32942ECE15D4EDAF005562A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32942EF015D4EDAF005562A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32942EF615D4EDAF005562A1 /* SenTestingKit.framework in Frameworks */,
+				32942EF715D4EDAF005562A1 /* UIKit.framework in Frameworks */,
+				32942EF815D4EDAF005562A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32942EBA15D4EDAF005562A1 = {
+			isa = PBXGroup;
+			children = (
+				32942ECF15D4EDAF005562A1 /* Wayfaring */,
+				32942EFB15D4EDAF005562A1 /* WayfaringTests */,
+				32942EC815D4EDAF005562A1 /* Frameworks */,
+				32942EC615D4EDAF005562A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32942EC615D4EDAF005562A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32942EC515D4EDAF005562A1 /* Wayfaring.app */,
+				32942EF415D4EDAF005562A1 /* WayfaringTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32942EC815D4EDAF005562A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32942EC915D4EDAF005562A1 /* UIKit.framework */,
+				32942ECB15D4EDAF005562A1 /* Foundation.framework */,
+				32942ECD15D4EDAF005562A1 /* CoreGraphics.framework */,
+				32942EF515D4EDAF005562A1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32942ECF15D4EDAF005562A1 /* Wayfaring */ = {
+			isa = PBXGroup;
+			children = (
+				32942ED815D4EDAF005562A1 /* AppDelegate.h */,
+				32942ED915D4EDAF005562A1 /* AppDelegate.m */,
+				32942EDB15D4EDAF005562A1 /* MainStoryboard_iPhone.storyboard */,
+				32942EDE15D4EDAF005562A1 /* MainStoryboard_iPad.storyboard */,
+				32942EE115D4EDAF005562A1 /* FirstViewController.h */,
+				32942EE215D4EDAF005562A1 /* FirstViewController.m */,
+				32942EE415D4EDAF005562A1 /* first.png */,
+				32942EE615D4EDAF005562A1 /* first@2x.png */,
+				32942EE815D4EDAF005562A1 /* SecondViewController.h */,
+				32942EE915D4EDAF005562A1 /* SecondViewController.m */,
+				32942EEB15D4EDAF005562A1 /* second.png */,
+				32942EED15D4EDAF005562A1 /* second@2x.png */,
+				32942ED015D4EDAF005562A1 /* Supporting Files */,
+			);
+			path = Wayfaring;
+			sourceTree = "<group>";
+		};
+		32942ED015D4EDAF005562A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32942ED115D4EDAF005562A1 /* Wayfaring-Info.plist */,
+				32942ED215D4EDAF005562A1 /* InfoPlist.strings */,
+				32942ED515D4EDAF005562A1 /* main.m */,
+				32942ED715D4EDAF005562A1 /* Wayfaring-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32942EFB15D4EDAF005562A1 /* WayfaringTests */ = {
+			isa = PBXGroup;
+			children = (
+				32942F0115D4EDAF005562A1 /* WayfaringTests.h */,
+				32942F0215D4EDAF005562A1 /* WayfaringTests.m */,
+				32942EFC15D4EDAF005562A1 /* Supporting Files */,
+			);
+			path = WayfaringTests;
+			sourceTree = "<group>";
+		};
+		32942EFC15D4EDAF005562A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32942EFD15D4EDAF005562A1 /* WayfaringTests-Info.plist */,
+				32942EFE15D4EDAF005562A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32942EC415D4EDAF005562A1 /* Wayfaring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32942F0615D4EDAF005562A1 /* Build configuration list for PBXNativeTarget "Wayfaring" */;
+			buildPhases = (
+				32942EC115D4EDAF005562A1 /* Sources */,
+				32942EC215D4EDAF005562A1 /* Frameworks */,
+				32942EC315D4EDAF005562A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wayfaring;
+			productName = Wayfaring;
+			productReference = 32942EC515D4EDAF005562A1 /* Wayfaring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32942EF315D4EDAF005562A1 /* WayfaringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32942F0915D4EDAF005562A1 /* Build configuration list for PBXNativeTarget "WayfaringTests" */;
+			buildPhases = (
+				32942EEF15D4EDAF005562A1 /* Sources */,
+				32942EF015D4EDAF005562A1 /* Frameworks */,
+				32942EF115D4EDAF005562A1 /* Resources */,
+				32942EF215D4EDAF005562A1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32942EFA15D4EDAF005562A1 /* PBXTargetDependency */,
+			);
+			name = WayfaringTests;
+			productName = WayfaringTests;
+			productReference = 32942EF415D4EDAF005562A1 /* WayfaringTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32942EBC15D4EDAF005562A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Zamboni Dev";
+			};
+			buildConfigurationList = 32942EBF15D4EDAF005562A1 /* Build configuration list for PBXProject "Wayfaring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32942EBA15D4EDAF005562A1;
+			productRefGroup = 32942EC615D4EDAF005562A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32942EC415D4EDAF005562A1 /* Wayfaring */,
+				32942EF315D4EDAF005562A1 /* WayfaringTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32942EC315D4EDAF005562A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32942ED415D4EDAF005562A1 /* InfoPlist.strings in Resources */,
+				32942EDD15D4EDAF005562A1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				32942EE015D4EDAF005562A1 /* MainStoryboard_iPad.storyboard in Resources */,
+				32942EE515D4EDAF005562A1 /* first.png in Resources */,
+				32942EE715D4EDAF005562A1 /* first@2x.png in Resources */,
+				32942EEC15D4EDAF005562A1 /* second.png in Resources */,
+				32942EEE15D4EDAF005562A1 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32942EF115D4EDAF005562A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32942F0015D4EDAF005562A1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32942EF215D4EDAF005562A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32942EC115D4EDAF005562A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32942ED615D4EDAF005562A1 /* main.m in Sources */,
+				32942EDA15D4EDAF005562A1 /* AppDelegate.m in Sources */,
+				32942EE315D4EDAF005562A1 /* FirstViewController.m in Sources */,
+				32942EEA15D4EDAF005562A1 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32942EEF15D4EDAF005562A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32942F0315D4EDAF005562A1 /* WayfaringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32942EFA15D4EDAF005562A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32942EC415D4EDAF005562A1 /* Wayfaring */;
+			targetProxy = 32942EF915D4EDAF005562A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32942ED215D4EDAF005562A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32942ED315D4EDAF005562A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32942EDB15D4EDAF005562A1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32942EDC15D4EDAF005562A1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		32942EDE15D4EDAF005562A1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32942EDF15D4EDAF005562A1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		32942EFE15D4EDAF005562A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32942EFF15D4EDAF005562A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32942F0415D4EDAF005562A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32942F0515D4EDAF005562A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32942F0715D4EDAF005562A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wayfaring/Wayfaring-Prefix.pch";
+				INFOPLIST_FILE = "Wayfaring/Wayfaring-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32942F0815D4EDAF005562A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wayfaring/Wayfaring-Prefix.pch";
+				INFOPLIST_FILE = "Wayfaring/Wayfaring-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		32942F0A15D4EDAF005562A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wayfaring.app/Wayfaring";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wayfaring/Wayfaring-Prefix.pch";
+				INFOPLIST_FILE = "WayfaringTests/WayfaringTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		32942F0B15D4EDAF005562A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wayfaring.app/Wayfaring";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wayfaring/Wayfaring-Prefix.pch";
+				INFOPLIST_FILE = "WayfaringTests/WayfaringTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32942EBF15D4EDAF005562A1 /* Build configuration list for PBXProject "Wayfaring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32942F0415D4EDAF005562A1 /* Debug */,
+				32942F0515D4EDAF005562A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32942F0615D4EDAF005562A1 /* Build configuration list for PBXNativeTarget "Wayfaring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32942F0715D4EDAF005562A1 /* Debug */,
+				32942F0815D4EDAF005562A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32942F0915D4EDAF005562A1 /* Build configuration list for PBXNativeTarget "WayfaringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32942F0A15D4EDAF005562A1 /* Debug */,
+				32942F0B15D4EDAF005562A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32942EBC15D4EDAF005562A1 /* Project object */;
+}
