@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3235D98915D5CEE200D90BA6 /* MathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3235D98815D5CEE200D90BA6 /* MathSpec.m */; };
+		3235D98B15D5D07B00D90BA6 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3235D98A15D5D07B00D90BA6 /* libKiwi.a */; };
 		32942ECA15D4EDAF005562A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32942EC915D4EDAF005562A1 /* UIKit.framework */; };
 		32942ECC15D4EDAF005562A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32942ECB15D4EDAF005562A1 /* Foundation.framework */; };
 		32942ECE15D4EDAF005562A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32942ECD15D4EDAF005562A1 /* CoreGraphics.framework */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3235D98815D5CEE200D90BA6 /* MathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathSpec.m; sourceTree = "<group>"; };
+		3235D98A15D5D07B00D90BA6 /* libKiwi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKiwi.a; path = "Frameworks/Kiwi/build/Release-iphoneos/libKiwi.a"; sourceTree = "<group>"; };
 		32942EC515D4EDAF005562A1 /* Wayfaring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wayfaring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32942EC915D4EDAF005562A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		32942ECB15D4EDAF005562A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -82,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3235D98B15D5D07B00D90BA6 /* libKiwi.a in Frameworks */,
 				32942EF615D4EDAF005562A1 /* SenTestingKit.framework in Frameworks */,
 				32942EF715D4EDAF005562A1 /* UIKit.framework in Frameworks */,
 				32942EF815D4EDAF005562A1 /* Foundation.framework in Frameworks */,
@@ -91,6 +96,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32490E9115D5D541005C8FD9 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				32490E9215D5D541005C8FD9 /* controllers */,
+				32490E9315D5D541005C8FD9 /* models */,
+				32490E9415D5D541005C8FD9 /* views */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		32490E9215D5D541005C8FD9 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		32490E9315D5D541005C8FD9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		32490E9415D5D541005C8FD9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		32942EBA15D4EDAF005562A1 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +149,7 @@
 		32942EC815D4EDAF005562A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3235D98A15D5D07B00D90BA6 /* libKiwi.a */,
 				32942EC915D4EDAF005562A1 /* UIKit.framework */,
 				32942ECB15D4EDAF005562A1 /* Foundation.framework */,
 				32942ECD15D4EDAF005562A1 /* CoreGraphics.framework */,
@@ -124,6 +161,7 @@
 		32942ECF15D4EDAF005562A1 /* Wayfaring */ = {
 			isa = PBXGroup;
 			children = (
+				32490E9115D5D541005C8FD9 /* app */,
 				32942ED815D4EDAF005562A1 /* AppDelegate.h */,
 				32942ED915D4EDAF005562A1 /* AppDelegate.m */,
 				32942EDB15D4EDAF005562A1 /* MainStoryboard_iPhone.storyboard */,
@@ -155,6 +193,7 @@
 		32942EFB15D4EDAF005562A1 /* WayfaringTests */ = {
 			isa = PBXGroup;
 			children = (
+				3235D98815D5CEE200D90BA6 /* MathSpec.m */,
 				32942F0115D4EDAF005562A1 /* WayfaringTests.h */,
 				32942F0215D4EDAF005562A1 /* WayfaringTests.m */,
 				32942EFC15D4EDAF005562A1 /* Supporting Files */,
@@ -295,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32942F0315D4EDAF005562A1 /* WayfaringTests.m in Sources */,
+				3235D98915D5CEE200D90BA6 /* MathSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +468,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wayfaring/Wayfaring-Prefix.pch";
 				INFOPLIST_FILE = "WayfaringTests/WayfaringTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/Frameworks/Kiwi/Kiwi";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -445,8 +487,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wayfaring/Wayfaring-Prefix.pch";
 				INFOPLIST_FILE = "WayfaringTests/WayfaringTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/Frameworks/Kiwi/Kiwi";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -470,6 +514,7 @@
 				32942F0815D4EDAF005562A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32942F0915D4EDAF005562A1 /* Build configuration list for PBXNativeTarget "WayfaringTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +523,7 @@
 				32942F0B15D4EDAF005562A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
